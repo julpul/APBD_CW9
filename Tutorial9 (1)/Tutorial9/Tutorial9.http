@@ -2,5 +2,19 @@
 
 GET {{Tutorial9_HostAddress}}/weatherforecast/
 Accept: application/json
+###
+POST http://localhost:5027/api/Warehouse
+Content-Type: application/json
+
+{
+  "IdProduct": 1,
+  "IdWarehouse": 1,
+  "Amount": 125,
+  "CreatedAt": "2025-05-12T12:00:00Z"
+}
+
+
+
+
 
 ###

@@ -8,7 +8,8 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-builder.Services.AddScoped<IDbService, DbService>();
+builder.Services.AddScoped<IWarehouseervices,WarehouseServices>();
+
 
 var app = builder.Build();
 
